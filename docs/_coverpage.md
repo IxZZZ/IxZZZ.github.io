@@ -22,7 +22,7 @@
 
 > The place to share my security knowledge
 
-- Simple & Quickly & Lightweight
+- Learning & Reasearch & Entertainment
 - Highly Reusable
 - For iOS, Swift, Python, Javascript, Dart, Flutter, React Native, Git ... so on.
 
