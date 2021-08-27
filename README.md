@@ -1,15 +1,15 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/IxZZZ/IxZZZ.github.io/main/docs/assets/bloc_logo_full.png" height="100" alt="DavidHo" />
+<img src="https://raw.githubusercontent.com/IxZZZ/IxZZZ.github.io/main/docs/assets/bloc_logo_full.png" height="100" alt="IxZ" />
 </p>
 
-<p align="center">
+<!-- <p align="center">
 <a href="https://github.com/tenhobi/effective_dart"><img src="https://img.shields.io/badge/style-effective_dart-40c4ff.svg" alt="style: effective dart"></a>
 <a href="https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx"><img src="https://img.shields.io/badge/flutter-website-deepskyblue.svg" alt="Flutter Website"></a>
 <a href="https://github.com/Solido/awesome-flutter#standard"><img src="https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true" alt="Awesome Flutter"></a>
 <a href="http://fluttersamples.com"><img src="https://img.shields.io/badge/flutter-samples-teal.svg?longCache=true" alt="Flutter Samples"></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
 </p>
-
+ -->
 ![](https://raw.githubusercontent.com/IxZZZ/IxZZZ.github.io/main/docs/assets/header_.png)
 
 # Something about myself
