@@ -32,16 +32,14 @@ The goal of this documents is to share my knowledge about my security research a
 # All the Contents you can find at here
 
 - Short Tips, Tutorial, My Exps
-- Setup environments
-- iOS
-- Android
-- Flutter
-- React Native
-- Cheat sheet
+- CTF write up
+- Reverse engineering
+- Programming
+- Books
+- Research
 - Others
 - Examples
 - Video Tutorials
-- HIKO Team Document
 
 ?> Use LEFT SLIDER BAR to tracking and see all contents of [this website](https://ixzzz.github.io/).
 # Maintainers
