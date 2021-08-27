@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/IxZZZ/IxZZZ.github.io/" height="100" alt="David Ho" /><br/><small>v1.0.0</small>
+<img src="https://raw.githubusercontent.com/IxZZZ/IxZZZ.github.io/main/docs/assets/bloc_logo_full.png" height="100" alt="David Ho" /><br/><small>v1.0.0</small>
 
 [![HTML](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)]()
 [![HTML](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)]()
