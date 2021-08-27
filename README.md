@@ -46,6 +46,6 @@ The goal of this documents is to share my knowledge about my security research a
 
 ?> Use LEFT SLIDER BAR to tracking and see all contents of [this website](https://ixzzz.github.io/).
 # Maintainers
-- [David Ho](https://github.com/IxZZZ)
+- [IxZ](https://github.com/IxZZZ)
 
 [MIT license](LICENSE)
