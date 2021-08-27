@@ -23,8 +23,8 @@
 > The place to share my security knowledge
 
 - Learning & Reasearch & Entertainment
-- Highly Reusable
-- For iOS, Swift, Python, Javascript, Dart, Flutter, React Native, Git ... so on.
+- For programming, security, rev ... so on
+- Good friends, good books, and a sleepy conscience: this is the ideal life.
 
 <p class="buttons">    
     <a href="https://github.com/IxZZZ/IxZZZ.github.io" target="_blank" rel="noopener">GitHub</a>
