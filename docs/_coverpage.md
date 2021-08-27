@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/xuanvinhtd/share_my_dev_exps/main/docs/assets/bloc_logo_full.png" height="100" alt="David Ho" /><br/><small>v1.0.0</small>
+<img src="https://raw.githubusercontent.com/IxZZZ/IxZZZ.github.io/" height="100" alt="David Ho" /><br/><small>v1.0.0</small>
 
 [![HTML](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)]()
 [![HTML](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)]()
@@ -31,6 +31,6 @@
 - For iOS, Swift, Python, Javascript, Dart, Flutter, React Native, Git ... so on.
 
 <p class="buttons">    
-    <a href="https://github.com/xuanvinhtd/share_my_dev_exps" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://github.com/IxZZZ/IxZZZ.github.io" target="_blank" rel="noopener">GitHub</a>
     <a href="#/gettingstarted">Get Started</a>    
 </p>
