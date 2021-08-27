@@ -25,8 +25,8 @@ The goal of this documents is to share my knowledge about my security research a
 
 ## Documentation
 
-- [Website Official](https://xuanvinhtd.github.io/share_my_dev_exps/)
-- [Github](https://github.com/xuanvinhtd/share_my_dev_exps/blob/main/README.md)
+- [Website Official](https://ixzzz.github.io/)
+- [Github](https://github.com/IxZZZ/IxZZZ.github.io/blob/main/README.md)
 
 !> The Tips: If you access from Git, you should access this doc by web official above to easy to read and learn all this documentation
 
@@ -44,8 +44,8 @@ The goal of this documents is to share my knowledge about my security research a
 - Video Tutorials
 - HIKO Team Document
 
-?> Use LEFT SLIDER BAR to tracking and see all contents of [this website](https://xuanvinhtd.github.io/share_my_dev_exps/).
+?> Use LEFT SLIDER BAR to tracking and see all contents of [this website](https://ixzzz.github.io/).
 # Maintainers
-- [David Ho](https://github.com/xuanvinhtd)
+- [David Ho](https://github.com/IxZZZ)
 
 [MIT license](LICENSE)
