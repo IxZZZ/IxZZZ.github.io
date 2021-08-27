@@ -13,17 +13,15 @@
 ![](https://raw.githubusercontent.com/xuanvinhtd/share_my_dev_exps/main/docs/assets/header_.png)
 
 
-# The place to share David Ho's programming experiences..
+# Something about myself
 
 ## Who am I ?
-I'm Ho Xuan Vinh(David Ho), a lovely mobile developer. He has been working on it professionally for over 5 years with iOS, MacOS, WatchOS, Android, Python, Flutter, React Native. My hometown is Quang Nam province. Now, I’m living and working at Da Nang city and work at HIKO Team.
+I'm Ho Xuan Ninh (aka IxZ), now a student at University of Information Technology in Ho Chi Minh City. My major is information security. My primary field in CTF is reverse engineering and know a little of binary exploitation.
 
 ## Overview
 
-The goal of this documents is to help you easy, quick to do something in you process programming with iOS, Android, Swift, Python, Dart, Javascript, Flutter, React Native, Github...and so on. Everything related to the programming.
-This documents includes a lot of the examples, tutorials, short tips, exprience and so on. All of this things UPDATING NEWEST, REALITY and helpful for DEVELOPER, help them save a day!
+The goal of this documents is to share my knowledge about my security research and writeup for my participating CTF competitions.
 
-?> You can rate this doc a ⭐ STAR to help share it with everyone([git](https://github.com/xuanvinhtd/share_my_dev_exps/)).
 
 ## Documentation
 
