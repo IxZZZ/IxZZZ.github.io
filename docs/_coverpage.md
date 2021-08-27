@@ -24,7 +24,7 @@
 
 - Learning & Reasearch & Entertainment
 - For programming, security, rev ... so on
-- Good friends, good books, and a sleepy conscience: this is the ideal life.
+- Good friends, good books, and a sleepy conscience: this is the ideal life!
 
 <p class="buttons">    
     <a href="https://github.com/IxZZZ/IxZZZ.github.io" target="_blank" rel="noopener">GitHub</a>
