@@ -3,11 +3,6 @@
   - [Getting Started](gettingstarted.md)
   - [Why I write this documentation?](whyusedoc.md)
 
-- Hiko Mobile Team
-
-  - [Workflow](hikoworkflow.md)
-  - [Contribution](contribution.md)
-
 - Tutorials vs tips
 
   - CTF write up
