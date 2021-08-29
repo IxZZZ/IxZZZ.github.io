@@ -1,4 +1,5 @@
-**Rev Challenges Write Up FwordCTF 2021**
+**Rev Challenges Write Up FwordCTF 2021 - (28-29/08/2021) **
+
 # Time machine (961 points)
 
 ## Description
@@ -37,10 +38,10 @@ int __cdecl main(int argc, const char **argv, const char **envp)
 After creating the `joezidsecret` environment variable. The `handle_1` was called and this will receive flag input and then caculate out the constant value to compare in check flag function in other process.
 
 I was analyzed overall all the instruction below and see that, [rcx] was flag character, with each flag character this will have total 10 constant value was caculate with the same operator but different constant, then the same with [rcx+i] is flag[i] will have 10 constant value.
-### Note: 
-- r12: flag character
-- r11: constant value
-- r13 : 0 or 1
+- Note: 
+  - r12: flag character
+  - r11: constant value
+  - r13 : 0 or 1
 
 The instrucion to calculate the constant value. (just a small part)
 ```bash
