@@ -1,4 +1,4 @@
-**Rev Challenges Write Up FwordCTF 2021 - (28-29/08/2021) **
+**Rev Challenges Write Up FwordCTF 2021 - (28-29/08/2021)**
 
 # Time machine (961 points)
 
