@@ -281,5 +281,149 @@ This is script of idapython, it contains three primary part:
 ![image](https://user-images.githubusercontent.com/31529599/131258401-5a158dab-b7e5-48d2-9a4b-ece6a62c7111.png)
 
 
+# Omen (988 Points)
+
+## Description
+
+They fear death, they should fear so much more than that.
+
+Flag format : FWORDctf{}
+
+Author : Joezid
+
+File: [Omen_Final.exe]()
+
+## Overview
+
+- Also a flag checker program
+- This challenges was use an anti-analysis (vm) like two stages which first stage use self inject to execute the second stage.
+- Fortunately, I still can trace out and debug to the check flag instruction and everything solve
+
+## Analyze
+
+I was set a break point at the `Enter The Flag:` and `%s` string to find out the check flag instruction.
+
+This instruction call the `unk_A313A7` to check flag before print `Correct Flag :)\n`
+
+![image](https://user-images.githubusercontent.com/31529599/131258958-7b25bbde-e668-4d55-a5ad-c4ea70c696a7.png)
+
+
+```bash
+debug046:00A317AE mov     edi, [ebp+8]
+debug046:00A317B1 mov     cl, [edi]
+debug046:00A317B3 xor     cl, [edi+4Eh]
+debug046:00A317B6 xor     cl, [edi+31h]
+debug046:00A317B9 xor     cl, [edi+3]
+debug046:00A317BC add     cl, [edi+21h]
+debug046:00A317BF sub     cl, [edi+31h]
+debug046:00A317C2 sub     cl, [edi+1Ah]
+debug046:00A317C5 cmp     cl, 1Ch
+debug046:00A317C8 jnz     loc_A322FA
+debug046:00A317CE mov     cl, [edi+1]
+debug046:00A317D1 and     cl, [edi+3Ah]
+debug046:00A317D4 and     cl, [edi+2Ah]
+debug046:00A317D7 add     cl, [edi+15h]
+debug046:00A317DA add     cl, [edi+2Bh]
+debug046:00A317DD xor     cl, [edi+45h]
+debug046:00A317E0 or      cl, [edi+2Ch]
+debug046:00A317E3 cmp     cl, 0F7h ; '÷'
+debug046:00A317E6 jnz     loc_A322FA
+debug046:00A317EC mov     cl, [edi+2]
+debug046:00A317EF and     cl, [edi+0Dh]
+debug046:00A317F2 xor     cl, [edi+40h]
+debug046:00A317F5 add     cl, [edi+2Dh]
+debug046:00A317F8 xor     cl, [edi+1Ah]
+debug046:00A317FB sub     cl, [edi+22h]
+debug046:00A317FE sub     cl, [edi+46h]
+debug046:00A31801 cmp     cl, 0CAh ; 'Ê'
+debug046:00A31804 jnz     loc_A322FA
+debug046:00A3180A mov     cl, [edi+3]
+debug046:00A3180D sub     cl, [edi+29h]
+debug046:00A31810 or      cl, [edi+28h]
+debug046:00A31813 and     cl, [edi+52h]
+debug046:00A31816 add     cl, [edi+50h]
+debug046:00A31819 add     cl, [edi+47h]
+debug046:00A3181C and     cl, [edi+4Ch]
+debug046:00A3181F cmp     cl, 31h ; '1'
+......
+...
+..
+.
+~ a lot more ~
+```
+an above instruction caculate and check flag input. after overall anaylising, I know that:
+- [edi+i] is the flag character (flag[i])
+- The flag has length 0x60 (96)
+- Check flag instrusion contains a lot of small check, if one not meet condition this will return `eax = 0` and not print anything
+- each small check was contain different operation caculator
+
+## Solution
+
+With a 96 flag character length and just a brute force approach is possible in this case because each small check can not be reverse to the character flag. `Z3` in my mind =)))
+
+I also generate a script python to brute force the flag:
+
+```python
+from z3 import *
+
+
+input = [BitVec(f"input_{i}", 8) for i in range(0x5f+1)]
+
+file = open('data.txt', 'r')
+data = file.read()
+file.close()
+
+S = Solver()
+count = 0
+temp = 0
+for line in data.split('\n'):
+    if 'jnz' in line:
+        temp = 0
+        continue
+    if 'cmp' in line:
+        num = line.split(',')[1].strip(' ')
+        S.add(temp == int(num, 16))
+        continue
+    offset = 0
+    if 'edi+' in line:
+        offset_str = line.split('+')[1].strip(']')
+        offset = int(offset_str, 16)
+
+    operator = line[:3].strip(' ')
+    if operator == 'mov':
+        temp = input[offset]
+    elif operator == 'xor':
+        temp ^= input[offset]
+    elif operator == 'add':
+        temp = (temp+input[offset]) & 0xff
+    elif operator == 'sub':
+        temp = (temp-input[offset]) & 0xff
+    elif operator == 'and':
+        temp &= input[offset]
+    elif operator == 'or':
+        temp |= input[offset]
+    else:
+        print('wrong operator')
+
+for i in range(len(input)):
+    S.add(input[i] >= 48)
+    S.add(input[i] <= 126)
+
+
+assert S.check() == sat
+
+ans  = S.model()
+
+for i in input:
+    print(chr(ans[i].as_long()),end='')
+```
+My code was extract each small check in data.txt file and add to Solver() in `Z3`. (file [data.txt]() contains the check flag instruction.
+
+## Result
+
+`FWORDctf{Wh4t_4b0ut_th1s_w31rd_L0ng_fL4g_th4t_m4k3_n0_s3ns3_but_st1LL_w1LL_g1v3_y0u_s0m3_p01ntz}`
+
+
+
 
 
