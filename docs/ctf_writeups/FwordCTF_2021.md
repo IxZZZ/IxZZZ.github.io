@@ -297,7 +297,7 @@ File: [Omen_Final.exe]()
 
 - Also a flag checker program
 - This challenges was use an anti-analysis (vm) like two stages which first stage use self inject to execute the second stage.
-- Fortunately, I still can trace out and debug to the check flag instruction and everything solve
+- Fortunately, I still can trace out and debug to the check flag instruction and everything was solve
 
 ## Analyze
 
