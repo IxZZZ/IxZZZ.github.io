@@ -9,7 +9,7 @@ Flag Format: FWORDctf{}
 
 Author: Joezid 
 
-File: [Time_Machine.exe]()
+File: [Time_Machine.exe](https://github.com/IxZZZ/CTF_JOINED/blob/main/FwordCTF/RE/Time%20Machine/Time_Machine.exe?raw=true)
 
 ## Overview 
 - A flag checker program
@@ -214,7 +214,7 @@ __int64 __fastcall sub_401584(unsigned __int8 *character)
 
 ## Solution
 
-After comprehensive understood the function, I was proposed solution that I will code a script python to brutce force the flag character because the `sub_401584` is likely irreversible, so I can not mapping from constant value to the flag character.
+After comprehensive understood the function, I was proposed solution that I will code a script python to brutce force the flag character because the `sub_401584` is likely irreversible, so I can not mapping from constant values to the flag characters.
 
 ```python
 import string
@@ -271,10 +271,10 @@ for arr in extract_arr:
 
 ```
 
-This is script of idapython, it contains three primary part:
+This is script of idapython, it contains three primary parts:
 
 - Rebuild `sub_401584` function
-- Extract and caculate constant value (in this case, we can just extract the value with `r13 == 1`, but in my code was extract all -> this is not really necessary)
+- Extract and caculate constant value (in this case, we can just extract the value with `r13 == 1`, but in my code was extracted all values-> this is not really necessary)
 - Brute Force the printable character input to rebuild `sub_401584` function and constant value then print matched
 
 ### Solve
@@ -291,13 +291,13 @@ Flag format : FWORDctf{}
 
 Author : Joezid
 
-File: [Omen_Final.exe]()
+File: [Omen_Final.exe](https://github.com/IxZZZ/CTF_JOINED/blob/main/FwordCTF/RE/Omen/Omen_Final.exe?raw=true)
 
 ## Overview
 
-- Also a flag checker program
+- Also a flag checker program.
 - This challenges was use an anti-analysis (vm) like two stages which first stage use self inject to execute the second stage.
-- Fortunately, I still can trace out and debug to the check flag instruction and everything was solve
+- Fortunately, I still can trace out and debug to the check flag instruction and everything was solved.
 
 ## Analyze
 
@@ -352,8 +352,8 @@ debug046:00A3181F cmp     cl, 31h ; '1'
 ~ a lot more ~
 ```
 an above instruction caculate and check flag input. after overall anaylising, I know that:
-- [edi+i] is the flag character (flag[i])
-- The flag has length 0x60 (96)
+- `[edi+i]` is the flag character (`flag[i]`)
+- The flag has length `0x60` (96)
 - Check flag instrusion contains a lot of small check, if one not meet condition this will return `eax = 0` and not print anything
 - each small check was contain different operation caculator
 
@@ -417,7 +417,7 @@ ans  = S.model()
 for i in input:
     print(chr(ans[i].as_long()),end='')
 ```
-My code was extract each small check in data.txt file and add to Solver() in `Z3`. (file [data.txt]() contains the check flag instruction.
+My code was extract each small check in data.txt file and add to Solver() in `Z3`. (file [data.txt](https://raw.githubusercontent.com/IxZZZ/CTF_JOINED/main/FwordCTF/RE/Omen/data.txt) contains the check flag instruction.
 
 ## Result
 
