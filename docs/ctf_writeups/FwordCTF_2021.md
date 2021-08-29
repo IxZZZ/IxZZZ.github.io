@@ -13,11 +13,13 @@ Author: Joezid
 File: [Time_Machine.exe](https://github.com/IxZZZ/CTF_JOINED/blob/main/FwordCTF/RE/Time%20Machine/Time_Machine.exe?raw=true)
 
 ## Overview 
+
 - A flag checker program
 - Statically analysis code and I find out the function to check and print out `Correct Flag :)`
 - Check's function caculate value from flag character then compare to constant value which was caculate in another process
 
 ## Analyze
+
 Firstly in the main function, I met the condition to check the environment variable `joezidsecret` is exist or not. Then call the `handle` function respectively.
 
 Pseudocode main:
