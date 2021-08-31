@@ -23,7 +23,7 @@ Firstly in the main function, I met the condition to check the environment varia
 
 Pseudocode main:
 
-[main-pseudocode.cpp](main-pseudocode.cpp)
+[main-pseudocode.cpp](main-pseudocode.cpp ':include')
 
 After creating the `joezidsecret` environment variable. The `handle_1` was called and this will receive flag input and then caculate out the constant value to compare in check flag function in other process.
 
