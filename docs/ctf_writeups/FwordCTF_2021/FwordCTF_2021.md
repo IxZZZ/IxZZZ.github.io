@@ -23,19 +23,8 @@ Firstly in the main function, I met the condition to check the environment varia
 
 Pseudocode main:
 
-```c
-int __cdecl main(int argc, const char **argv, const char **envp)
-{
-  int result; // eax
+[main-pseudocode.cpp](main-pseudocode.cpp)
 
-  sub_401E80();
-  if ( getenv("joezidsecret") )
-    result = handle_1();
-  else
-    result = handle_2(*argv);
-  return result;
-}
-```
 After creating the `joezidsecret` environment variable. The `handle_1` was called and this will receive flag input and then caculate out the constant value to compare in check flag function in other process.
 
 I was analyzed overall all the instruction below and see that, [rcx] was flag character, with each flag character this will have total 10 constant value was caculate with the same operator but different constant, then the same with [rcx+i] is flag[i] will have 10 constant value.

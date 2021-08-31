@@ -6,7 +6,7 @@
 - Tutorials vs tips
 
   - CTF write up
-    - [**FwordCTF 2021**](ctf_writeups/FwordCTF_2021.md)
+    - [**FwordCTF 2021**](ctf_writeups/FwordCTF_2021/FwordCTF_2021.md)
 <!--     - [**MacOS** <sup>✨</sup>](todo.md)
     - [**Software** <sup>✨</sup>](macsoftware.md)
     - [**CI/CD vs Fastlane + Firebase** <sup>✨</sup>](setupcicdenv.md)
