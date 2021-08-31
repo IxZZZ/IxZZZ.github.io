@@ -1,4 +1,4 @@
-```javascript
+```python
 from z3 import *
 
 
