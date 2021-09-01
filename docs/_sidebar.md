@@ -7,7 +7,6 @@
 
   - CTF write up
     - [**FwordCTF 2021**](ctf_writeups/FwordCTF_2021/FwordCTF_2021.md)
-    - [**test**](ctf_writeups/FwordCTF_2021/test.html)
 <!--     - [**MacOS** <sup>✨</sup>](todo.md)
     - [**Software** <sup>✨</sup>](macsoftware.md)
     - [**CI/CD vs Fastlane + Firebase** <sup>✨</sup>](setupcicdenv.md)
