@@ -1,4 +1,4 @@
-```asm
+```asm6502
 debug046:00A317AE mov     edi, [ebp+8]
 debug046:00A317B1 mov     cl, [edi]
 debug046:00A317B3 xor     cl, [edi+4Eh]
