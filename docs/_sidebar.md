@@ -11,7 +11,8 @@
     - [**Software** <sup>✨</sup>](macsoftware.md)
     - [**CI/CD vs Fastlane + Firebase** <sup>✨</sup>](setupcicdenv.md)
     - [**Fastlane + Telegram Bot** <sup>✨</sup>](setupbottelegram.md) -->
-
+  - Anti Debug
+    - [**Anti Debug Flag**](anti_debug/anti_debug_flag.md)
   - Reverse Engineering
 <!--     - [**Learn** <sup>✨</sup>](learnflutter.md)
     - [**Command line** <sup>✨</sup>](fluttercmd.md)
