@@ -664,3 +664,9 @@ PVOID pHeapEnd = (PBYTE)HeapEntry.lpData + HeapEntry.cbData;
 for (SIZE_T offset = 0; offset < nDwordsToPatch; offset++)
     *((PDWORD)pHeapEnd + offset) = 0;
 ```
+
+# About content
+
+This content was sourced from [anti-debug.checkpoint](https://anti-debug.checkpoint.com/)
+
+I copy to my blog for saving and learning purpose only.
