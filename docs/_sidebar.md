@@ -7,22 +7,19 @@
 
   - CTF write up
     - [**FwordCTF 2021**](ctf_writeups/FwordCTF_2021/FwordCTF_2021.md)
-<!--     - [**MacOS** <sup>✨</sup>](todo.md)
-    - [**Software** <sup>✨</sup>](macsoftware.md)
-    - [**CI/CD vs Fastlane + Firebase** <sup>✨</sup>](setupcicdenv.md)
-    - [**Fastlane + Telegram Bot** <sup>✨</sup>](setupbottelegram.md) -->
   - Anti Debug
     - [**Anti Debug Flag**](anti_debug/anti_debug_flag.md)
   - Reverse Engineering
-<!--     - [**Learn** <sup>✨</sup>](learnflutter.md)
-    - [**Command line** <sup>✨</sup>](fluttercmd.md)
-    - [**Popular package** <sup>✨</sup>](todo.md)
-    - [**Setup Cocos with flutter** <sup>✨</sup>](todo.md)
-    - [**Setup CI/CD Local** <sup>✨</sup>](cicdflutter.md)
-    - [**Setup CI/CD Cloud** <sup>✨</sup>](todo.md)
-    - [Convention](todo.md)
-    - [Setup VSC IDE vs Extension useful](todo.md) -->
   - Programming
+  - Books
+- My experiences
+  - Interview
+
+- API Reference
+<!--     - [Git tips](gittips.md)
+    - [Merge commit by Rebase and squash](mergecommit.md)
+    - [Add ssh key](todo.md)
+    - [Cheat Sheet](todo.md) -->
 <!--     - [**Learn** <sup>✨</sup>](learnreactnative.md)
     - [**Command line** <sup>✨</sup>](reactnativecomandline.md)
     - [**Boilerplate project** <sup>✨</sup>](templatecreactnative.md)
@@ -32,13 +29,15 @@
     - [**Setup CI/CD Cloud** <sup>✨</sup>](todo.md)
     - [Convention](todo.md)
     - [Setup VSC IDE vs Extension useful](todo.md) -->
-  - Books
-<!--     - [Git tips](gittips.md)
-    - [Merge commit by Rebase and squash](mergecommit.md)
-    - [Add ssh key](todo.md)
-    - [Cheat Sheet](todo.md) -->
-
-- My experiences
-  - Interview
-
-- API Reference
+<!--     - [**Learn** <sup>✨</sup>](learnflutter.md)
+    - [**Command line** <sup>✨</sup>](fluttercmd.md)
+    - [**Popular package** <sup>✨</sup>](todo.md)
+    - [**Setup Cocos with flutter** <sup>✨</sup>](todo.md)
+    - [**Setup CI/CD Local** <sup>✨</sup>](cicdflutter.md)
+    - [**Setup CI/CD Cloud** <sup>✨</sup>](todo.md)
+    - [Convention](todo.md)
+    - [Setup VSC IDE vs Extension useful](todo.md) -->
+<!--     - [**MacOS** <sup>✨</sup>](todo.md)
+    - [**Software** <sup>✨</sup>](macsoftware.md)
+    - [**CI/CD vs Fastlane + Firebase** <sup>✨</sup>](setupcicdenv.md)
+    - [**Fastlane + Telegram Bot** <sup>✨</sup>](setupbottelegram.md) -->
