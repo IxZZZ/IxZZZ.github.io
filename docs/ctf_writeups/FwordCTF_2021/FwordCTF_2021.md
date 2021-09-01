@@ -1,6 +1,12 @@
 # **Rev Challenges Write Up FwordCTF 2021 - (28-29/08/2021)**
 # Time machine (961 points)
-
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
 ## Description
 
 No description needed just discover it by your self :D
