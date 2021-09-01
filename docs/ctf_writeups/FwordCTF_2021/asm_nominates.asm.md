@@ -1,4 +1,4 @@
-```asm
+```asm6502
 data:0000000000412020 sub_412020      proc near               ; DATA XREF: handle_1+73↑o
 .data:0000000000412020                 mov     r12b, [rcx]
 .data:0000000000412023                 mov     r11, 1A6232C39h
