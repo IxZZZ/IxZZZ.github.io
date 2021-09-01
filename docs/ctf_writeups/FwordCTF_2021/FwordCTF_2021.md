@@ -112,7 +112,6 @@ I also generate a script python to brute force the flag:
 
 [Solve_Omen.py](Solve_Omen.py.md ':include')
 
-<script src="https://gist.github.com/IxZZZ/b221da5b8605133cbbf4f05ff5650f03.js"></script>
 
 My code was extract each small check in data.txt file and add to Solver() in `Z3` (file [data.txt](https://raw.githubusercontent.com/IxZZZ/CTF_JOINED/main/FwordCTF/RE/Omen/data.txt) contains the check flag instruction).
 
