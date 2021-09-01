@@ -35,7 +35,7 @@ I was analyzed overall all the instruction below and see that, [rcx] was flag ch
 
 The instrucion to calculate the constant value. (just a small part)
 
-[asm_nominates.asm](asm_nominates.asm.md ':include')
+[asm_nominates.asm](asm_nominates.asm6502.md ':include')
 
 
 Continuously, I was tried default condition in case the `joezidsecret` does not exist and `handle_2` was called. This function will call the check flag function.
@@ -96,7 +96,7 @@ This instruction call the `unk_A313A7` to check flag before print `Correct Flag 
 
 ![image](https://user-images.githubusercontent.com/31529599/131258958-7b25bbde-e668-4d55-a5ad-c4ea70c696a7.png)
 
-[asm_flag_checker.asm](asm_flag_checker.asm.md ':include')
+[asm_flag_checker.asm](asm_flag_checker.asm6502.md ':include')
 
 an above instruction caculate and check flag input. after overall anaylising, I know that:
 - `[edi+i]` is the flag character (`flag[i]`)
