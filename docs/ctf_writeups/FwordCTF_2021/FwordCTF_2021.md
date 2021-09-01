@@ -35,7 +35,7 @@ I was analyzed overall all the instruction below and see that, [rcx] was flag ch
 
 The instrucion to calculate the constant value. (just a small part)
 
-[asm_nominates.asm](asm_nominates.asm6502.md ':include')
+[asm_nominates.asm6502](asm_nominates.asm6502.md ':include')
 
 
 Continuously, I was tried default condition in case the `joezidsecret` does not exist and `handle_2` was called. This function will call the check flag function.
