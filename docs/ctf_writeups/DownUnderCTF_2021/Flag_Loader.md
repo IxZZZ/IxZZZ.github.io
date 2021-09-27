@@ -86,7 +86,7 @@ Author: joseph#8210
  - `v1` was caculated by the `sum` of `xor` input string characters with `X` characters has value `DUCTF`
  -  `v2` was caculated by the `multiply` the index add 1 with input string chacracters respectively.
  
-In first time, I was try the of course value `DUCTF` but it not pass the check, because the `v2` is just a byte type so the multiply operation was overflow byte size and the result of 8 bit was equal `0`.
+In first time, I was tried the of course value `DUCTF` but it not pass the check, because the `v2` is just a byte type so the multiply operation was overflow byte size and the result of 8 bit was equal `0`.
 
 We can manually recaculated the input string but I was lazy and then I used `z3`:
 
