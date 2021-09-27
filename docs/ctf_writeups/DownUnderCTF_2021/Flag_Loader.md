@@ -13,8 +13,8 @@ Author: joseph#8210
  ## Overview 
  
  - A program with three layers check conditions (random math expression). Just input the correct answer and pass all checks, server will print out the flag.
- - Specially, the input will be calculated and then multiply together,The program will call sleep for the number of seconds equals to the final result.
- - One more thing the author was made this chall a little more diffucult that the total time live of the program is not more than 1 minute.
+ - Specially, the input will be calculated and then multiply together, The program will call sleep for the number of seconds equals to the final result.
+ - One more thing the author was made this chall a little more difficult that the total time live of the program is not more than 1 minute.
  
  ## Analyze
  Pseudocode of `main` function:
