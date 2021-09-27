@@ -196,7 +196,7 @@ __int64 check3()
   return (unsigned __int16)((v3 - v2) * (v5 - v4));
 }
 ```
-This is the same with the previous check. With five inputs instead of two inputs
+This is the same with the previous check. Five inputs instead of two inputs
 
 
  
