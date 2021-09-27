@@ -8,7 +8,7 @@ What more could you ask for than a program that loads the flag for you? Just ans
 Author: joseph#8210
  `nc pwn-2021.duc.tf 31919`
  
- File: [flag_loader]()
+ File: [flag_loader](./flag_loader)
  
  ## Overview 
  
@@ -344,7 +344,7 @@ Can you see the forest for the trees?
 
 Author: joseph#8210
 
-File: [connect_the_dot]()
+File: [connect_the_dot](./connect_the_dots)
 
 ## Overview
 
