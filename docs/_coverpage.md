@@ -22,8 +22,8 @@
 
 > The place to share my security knowledge
 
-- Learning & Reasearch & Entertainment
-- For programming, security, rev ... so on
+- Learning & Research & Entertainment
+- For programming, security, reverse engineering ... so on.
 - Good friends, good books, and a sleepy conscience: this is the ideal life!
 
 <p class="buttons">    
