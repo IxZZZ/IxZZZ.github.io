@@ -467,7 +467,7 @@ Maze info:
 - `l` to move left
 - `x` to check destination valid
 
-To make the function return `1`. we have to reach the 8 correct destination in the correct order. In the case `x`. the program will check valid destination and `v5&0xff` to check whether the reaching order was correct.
+To make the function return `1`. we have to reach the 8 correct destination in the correct order. In the `x` case. The program will check valid destination and `v5&0xff` to check whether the reaching order was correct when reach all 8 destination.
 
 ## Solution
 
