@@ -607,7 +607,7 @@ Flag: `DUCTF{stringent_strings_string}`
 
 ## Juniperus
 
-![image](https://user-images.githubusercontent.com/31529599/134942324-78f37445-9c55-45ed-88b6-bf4062f81b85.png)
+![image](https://user-images.githubusercontent.com/31529599/134948395-474535ab-c345-4e56-aee3-ecc10be2f455.png)
 
 This look like a secure login challenges, with password was hash sum by sha3-512, then compare to the input hash. But a tricky CTF chall, a small mistake in code.
 
