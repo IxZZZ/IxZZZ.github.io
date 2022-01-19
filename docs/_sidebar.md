@@ -8,6 +8,7 @@
   - CTF write up
     - [**FwordCTF 2021**](ctf_writeups/FwordCTF_2021/FwordCTF_2021.md)
     - [**DownUnderCTF 2021**](ctf_writeups/DownUnderCTF_2021/write_ups.md)
+    - [**Flare-on 7**](ctf_writeups/Flare-on-7/flare-on-7-wu.md)
   - Anti Debug
     - [**Anti Debug Flag**](anti_debug/anti_debug_flag.md)
   - Reverse Engineering
