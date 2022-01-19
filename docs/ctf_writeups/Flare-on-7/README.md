@@ -123,7 +123,8 @@ This is all my short decription and learned thing from all challenges from the F
 - [ ]  COM model and related thing such as IID, GUID, CLSID, ...
 - [ ]  CPP global initializer
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/73aef711-7716-4947-8911-af274229ce69/Untitled.png)
+![image](https://user-images.githubusercontent.com/31529599/150123842-656fc758-43b1-4f64-88b7-2ad32bfab1a1.png)
+
 
 - [ ]  Some new knowledge about the windows driver
 
@@ -161,7 +162,8 @@ This is all my short decription and learned thing from all challenges from the F
 - [ ]  if binary contain no anti-patching techinique, in some case we can patch binary into infinite loop then dump `/proc/<pid>/mem` (Using code seek() and read())
 - [ ]  hooking function
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/523790bf-a7fa-49b1-bb77-fc57c593b1c2/Untitled.png)
+![image](https://user-images.githubusercontent.com/31529599/150123790-4ece9cd3-2ff6-4b99-8158-8afd6494cd34.png)
+
 
 ```c
 // hook.c
@@ -197,7 +199,7 @@ int mlockall (uint64_t arg)
 }
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45e71647-4acb-4253-a520-dfe666798ff4/Untitled.png)
+![image](https://user-images.githubusercontent.com/31529599/150123738-8c91352e-5ef9-4dca-8187-5a0abfeddddb.png)
 
 - [ ]  Guess and google with github
 - [ ]  Nanomite can be debug by the way we can patch raise kill signal instruction to the `debugger` code respectively
