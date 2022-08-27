@@ -22,7 +22,7 @@
 
 > The place to share my security knowledge
 
-- Learning & Research & Entertainment
+- Learning [&](https://drive.google.com/uc?export=download&id=1f2WWdEwTDKJt_mCU4GhlomtY0bqxl_iC) Research & Entertainment
 - For programming, security, reverse engineering ... so on.
 - Good friends, good books, and a sleepy conscience: this is the ideal life!
 
