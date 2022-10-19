@@ -82,7 +82,7 @@ Nghĩa là code đúng của hàm `coconut_82` sẽ là giá trị của mảng 
 
 Lí do cơ bản là bởi vì hàm `dynamicMethod.Invoke` sử dụng token khác với code đúng khi đặt ở text sections, đó cũng là lí do chương trình cố gắng lấy token mới cho code `b` bằng hàm `GetTokenFor`. Vậy nghĩa là token đúng sẽ là token ban đầu trước khi gọi hàm `GetTokenFor` -> index,token đúng tương ứng với key, value
 
-Từ đây ta chỉ cần build lại code đúng cho hàm `coconut_82` từ index và token đã xác định. Ngoài hàm `coconut_82` thì còn 9 hàm khác cũng có luồng chương trình tương tự như hàm này nên ta tiến hành trích cách code đúng cho từng hàm và patch lại cho đúng
+Từ đây ta chỉ cần build lại code đúng cho hàm `coconut_82` từ index và token đã xác định. Ngoài hàm `coconut_82` thì còn 9 hàm khác cũng có luồng chương trình tương tự như hàm này nên ta tiến hành trích các codes đúng cho từng hàm và patch lại cho đúng
 
 Code patch:
 
