@@ -168,7 +168,7 @@ Input sau khi được check đúng sẽ truyền vào hàm `coconut_54` như m�
 
 ![image](https://user-images.githubusercontent.com/31529599/196747871-d4102f4c-2161-45d1-86ea-49e0452a0315.png)
 
-Nhập key và ta được 1 nữa flag từ hình mới decrypt tiếp tục phân tích phase tiếp theo 
+Nhập key và ta được 1 nửa flag từ hình mới decrypt tiếp tục phân tích phase tiếp theo 
 
 ![image](https://user-images.githubusercontent.com/31529599/196748266-cf20ede4-2ee0-45dd-bd05-94a49497ed92.png)
 
